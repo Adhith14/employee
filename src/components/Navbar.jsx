@@ -10,10 +10,9 @@ const Navbar = () => {
                 <Toolbar>
                     <Typography varient='h6' sx={{flexGrow:1}} align='left'>App</Typography>
                     
-                    <Button color='inherit'>Home</Button>
-                    <Button color='inherit'>Form</Button>
-                    <Button color='inherit'>Adhith</Button>
-
+                    <Button color='inherit'><Link to={'/'}  style={{textDecoration:'none'}}>Home</Link> </Button>
+                    <Button color='inherit'><Link to={'/table'}  style={{textDecoration:'none'}}>Form</Link> </Button>
+                
                 </Toolbar>
             </AppBar>
         </Box>
